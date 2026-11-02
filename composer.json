@@ -1,0 +1,14 @@
+{
+  "name": "yabandpay/iban-php-sdk",
+  "description": "PHP client for the IBAN V2 merchant API",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-hash": "*"
+  },
+  "autoload": {
+    "psr-4": {"YabandPay\\Iban\\": "src/"}
+  }
+}
